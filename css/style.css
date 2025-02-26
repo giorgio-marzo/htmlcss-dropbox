@@ -16,10 +16,17 @@ body{
     height: 400px;
 }
 
+.h-quadrini{
+    height: 160px;
+}
+
 .h-small{
     height: 100px;
 }
 
+.h-main{
+    height: 1800px;
+}
 
 /*PROPIETA' HEADER*/
 
@@ -36,7 +43,6 @@ header li{
 }
 
 .header-container{
-    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -47,7 +53,7 @@ header{
 
 /*PROPIETA' MAIN*/
 
-    /*JUMBOTRON*/
+                            /*JUMBOTRON*/
 
 .jumbo{
     margin: 0 auto;
@@ -55,9 +61,31 @@ header{
     padding-top: 200px;
 }
 
-    /* 3 COLONNE*/
+.mg-bot{
+    margin-bottom: 50px;
+}
 
+                            /*COLONNA CENTRALE*/
 
+    .main-container{
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .seleziona ul{
+        list-style-type: none;  
+    }
+    
+    .seleziona li{
+        display: inline-block;
+        
+    }
+
+                            /* 3 COLONNE*/
+
+.col-33{
+    width: 30%;
+}
 
 
 /*PROPIETA' BODY (RIUTILIZZABILI)*/
@@ -87,6 +115,10 @@ header{
     background-color: aquamarine;
 }
 
+.w-100{
+    width: 800px;
+}
+
 /*COLORI STRUTTURA*/
 
 
@@ -104,4 +136,12 @@ header{
 
 .bg-yel{
     background-color: rgb(255, 217, 0);
+}
+
+.bg-cyn{
+    background-color: cyan;
+}
+
+.bg-brw{
+    background-color: rgb(173, 103, 12);
 }

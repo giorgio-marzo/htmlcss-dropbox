@@ -5,8 +5,21 @@ box-sizing: border-box;
 }
 
 body{
-    font-family: sans-serif;
+    font-family: "Open Sans";
 }
+
+.h-fissa{
+    height: 800px;
+}
+
+.h-quadri{
+    height: 400px;
+}
+
+.h-small{
+    height: 100px;
+}
+
 
 /*PROPIETA' HEADER*/
 
@@ -22,9 +35,32 @@ header li{
     background-color: darkgray;
 }
 
-/*.h-fissa{
-    height: 100px;
-}*/
+.header-container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+/*PROPIETA' MAIN*/
+
+    /*JUMBOTRON*/
+
+.jumbo{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-top: 200px;
+}
+
+    /* 3 COLONNE*/
+
+
+
+
+/*PROPIETA' BODY (RIUTILIZZABILI)*/
 
 .padd{
     padding: 20px 0;
@@ -34,15 +70,14 @@ header li{
     display: flex;
 }
 
-.header-container{
-    max-width: 100%;
-    margin: 0 auto;
-}
 
 .margin{
     margin: 0 10px;
 }
 
+.al-center{
+    align-items: center;
+}
 .des{
     background-color: chocolate;
     text-align: right;
@@ -52,9 +87,8 @@ header li{
     background-color: aquamarine;
 }
 
-.al-center{
-    align-items: center;
-}
+/*COLORI STRUTTURA*/
+
 
 .bg-red{
     background-color: red;
@@ -62,4 +96,12 @@ header li{
 
 .bg-gre{
     background-color: green;
+}
+
+.bg-laz{
+    background-color: lightskyblue;
+}
+
+.bg-yel{
+    background-color: rgb(255, 217, 0);
 }

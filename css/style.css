@@ -4,3 +4,62 @@ margin: 0;
 box-sizing: border-box;
 }
 
+body{
+    font-family: sans-serif;
+}
+
+/*PROPIETA' HEADER*/
+
+.col-50{
+    width: 50%;
+}
+
+header li{
+    display: inline-block;
+}
+
+.bg-hd{
+    background-color: darkgray;
+}
+
+/*.h-fissa{
+    height: 100px;
+}*/
+
+.padd{
+    padding: 20px 0;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.header-container{
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.margin{
+    margin: 0 10px;
+}
+
+.des{
+    background-color: chocolate;
+    text-align: right;
+}
+
+.sin{
+    background-color: aquamarine;
+}
+
+.al-center{
+    align-items: center;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-gre{
+    background-color: green;
+}

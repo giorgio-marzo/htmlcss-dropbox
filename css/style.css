@@ -8,6 +8,8 @@ body{
     font-family: "Open Sans";
 }
 
+/*ALTEZZE FISSE DA RIMUOVERE*/
+
 .h-fissa{
     height: 800px;
 }
@@ -25,8 +27,13 @@ body{
 }
 
 .h-main{
-    height: 1800px;
+    height: 2900px;
 }
+
+.h-ori{
+    height: 250px;
+}
+
 
 /*PROPIETA' HEADER*/
 
@@ -80,7 +87,7 @@ header{
     display: inline-block;
 }
 
-                            /* 3 COLONNE*/
+                            /* 3/6 COLONNE*/
 
 
 .col-33{
@@ -89,6 +96,22 @@ header{
 
 .interno{
  justify-content: space-between;   
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+
+/*FOOTER*/
+
+.col-20{
+    width: 20%;
+}
+
+.fot-5{
+    margin: 0 auto;
+    max-width: 1200px;
 }
 
 
@@ -116,7 +139,7 @@ header{
 }
 
 .sin{
-    background-color: aquamarine;
+    background-color: rgb(127, 214, 255);
 }
 
 .wid-img{
@@ -133,6 +156,10 @@ header{
 
 .wd-px{
     width: 40px;
+}
+
+.h-50{
+    height: 50%;
 }
 
 /*COLORI STRUTTURA*/
@@ -168,4 +195,16 @@ header{
 
 .bg-pnk{
     background-color: pink;
+}
+
+.bg-gl{
+    background-color: chartreuse;
+}
+
+.bg-silv{
+    background-color: silver;
+}
+
+.bg-blk{
+    background-color: rgba(0, 0, 0, 0.829);
 }

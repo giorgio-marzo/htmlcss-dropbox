@@ -67,24 +67,28 @@ header{
 
                             /*COLONNA CENTRALE*/
 
-    .main-container{
-        width: 1000px;
-        margin: 0 auto;
-    }
+.main-container{
+    width: 1000px;
+    margin: 0 auto;
+}
 
-    .seleziona ul{
-        list-style-type: none;  
-    }
+.seleziona ul{
+    list-style-type: none;  
+}
     
-    .seleziona li{
-        display: inline-block;
-        
-    }
+.seleziona li{
+    display: inline-block;
+}
 
                             /* 3 COLONNE*/
 
+
 .col-33{
     width: 30%;
+}
+
+.interno{
+ justify-content: space-between;   
 }
 
 
@@ -115,8 +119,20 @@ header{
     background-color: aquamarine;
 }
 
-.w-100{
+.wid-img{
     width: 800px;
+}
+
+.ju-center{
+    justify-content: center;   
+   }
+
+.gap{
+    gap: 20px;
+}
+
+.wd-px{
+    width: 40px;
 }
 
 /*COLORI STRUTTURA*/
@@ -144,4 +160,12 @@ header{
 
 .bg-brw{
     background-color: rgb(173, 103, 12);
+}
+
+.bg-vlt{
+    background-color: blueviolet;
+}
+
+.bg-pnk{
+    background-color: pink;
 }
